@@ -92,4 +92,5 @@ def winner(board)
 end
 
 def play
+  input = gets
 end
