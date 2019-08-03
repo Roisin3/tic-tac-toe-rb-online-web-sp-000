@@ -50,13 +50,13 @@ def turn(board)
 end
 
 def turn_count(board)
-  #turn_number = 0
+  turn_number = 0
   board.each do |token|
     if token == "X" || token == "O"
-      #turn_number += 1
+      turn_number += 1
     end
   end
-  #turn_number
+  turn_number
 end
 
 def current_player(board)
