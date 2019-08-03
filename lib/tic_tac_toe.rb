@@ -25,13 +25,13 @@ def move(board, index, choice)
   board[index] = choice
 end
 
-def position_valid?(board, index)
+def position_taken?(board, index)
   board[index] != " "
 end
 
 def valid_move?(board, index)
   if index.between?(0,8)
-    if !position_valid?(board, index)
+    if !position_taken?(board, index)
       true
     end
   end
