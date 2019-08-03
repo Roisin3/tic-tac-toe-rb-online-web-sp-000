@@ -90,3 +90,6 @@ def winner(board)
     board[win.first]
   end
 end
+
+def play
+end
